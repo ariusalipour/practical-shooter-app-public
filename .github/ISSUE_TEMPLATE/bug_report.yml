@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a bug or unexpected behaviour in the Practical Shooter App.
+type: Bug
+labels:
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug. Please share as much detail as you can so the team can triage it quickly.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Which version of the app are you using? (Found in Account > App Info)
+      placeholder: e.g. 35.0
+  - type: input
+    id: device
+    attributes:
+      label: Device and OS
+      description: What device and OS version are you on?
+      placeholder: e.g. iPhone 16 Pro, iOS 19.0
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you observed.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps needed to reproduce the problem.
+      placeholder: |
+        1. Open the ... tab
+        2. Tap ...
+        3. Scroll to ...
+        4. Observe the error
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What did you expect to happen instead?
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Share any screenshots, screen recordings, logs, or other details that could help.
+      placeholder: |
+        - Screenshot or screen recording
+        - Error message text
+        - Steps leading up to the issue
