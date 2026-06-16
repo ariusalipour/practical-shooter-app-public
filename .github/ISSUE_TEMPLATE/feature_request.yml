@@ -1,7 +1,7 @@
 name: Feature request
 description: Suggest an improvement or new feature for the Practical Shooter App.
-type: Feature
 labels:
+  - enhancement
   - triage
 body:
   - type: markdown
